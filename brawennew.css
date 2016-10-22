@@ -1,0 +1,530 @@
+@charset "utf-8";
+/* Start Css */
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	direction: rtl;
+	min-width: 960px;
+	min-height: 600px;
+	background: #FFF;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.bginput:focus,
+textarea:focus {
+	border : 1px #eccc9c solid;
+	background: #fff7ec url('http://i57.servimg.com/u/f57/18/61/22/74/blight12.jpg') repeat-x center top;
+	color: #e39321;
+	text-shadow: 0 1px 0 #FFF;
+}
+input,
+select,
+textarea {
+	outline: none;
+	cursor: pointer;
+	margin: 2px;
+}
+ul,
+li,
+h1,
+h2,
+h3,
+h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-position: inside;
+}
+h1 { font-size: 12px; }
+img { border: none; }
+fieldset {
+	margin-bottom: 6px;
+	border: 1px #eeeeee solid;
+	box-shadow: #eeeeee 0px 1px 2px;
+	background: #fefefe;
+	font: bold 12px tahoma;
+}
+hr {
+	background: #eeeeee;
+	border-color: #eeeeee;
+}
+/* End Css */
+::selection {
+	background: #4b4b4b;
+	color: #FFF;
+	text-shadow: #212121 0px 1px 0px;
+}
+::-moz-selection {
+ background: #4b4b4b;
+ color: #FFF;
+ text-shadow: #212121 0px 1px 0px;
+}
+/* start header */
+.bheader {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/555512.png) repeat-x top center;
+	height: 247px;
+}
+.bheader .bright {
+	float:right;
+	background: url(http://i68.servimg.com/u/f68/14/86/81/44/oa10.png) no-repeat right top;
+	width: 511px;
+	height: 247px;
+}
+.bheader .bleft {
+	float:left;
+	background: url(http://i68.servimg.com/u/f68/14/86/81/44/fbr10.png) no-repeat left top;
+	width: 350px;
+	height: 247px;
+}
+.bheader .bleft .blogin {
+	width: 190px;
+	height: 95px;
+	margin: 51px 123px 35px 25px;
+}
+.bheader .bleft .bico { height: 40px; }
+.bheader .bleft .bico img {
+	width: 350px;
+	height: 40px;
+	display:block;
+}
+.blogin,
+.blogin a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	text-shadow: #FFF 0px 1px 0px;
+	color: #969696;
+}
+.blogin a,
+.blogin strong {
+	font-size: 12px;
+	font-weight: bold;
+	color: #955412;
+}
+.blogin a:hover,
+.blogin strong:hover { color: #404040; }
+.blogin .time { font-size: 10px; }
+.login-input {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/logini14.png) no-repeat center -5px;
+	width: 187px;
+	height: 95px;
+}
+.login-input input {
+	margin:0px;
+	padding: 0px;
+	border: none;
+	background: none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-shadow: #FFF 0px 1px 0px;
+	color: #969696;
+}
+.login-input .User {
+	width: 149px;
+	padding: 7px 30px 7px 5px;
+	margin-bottom: 8px;
+	float: right;
+}
+.login-input .Pass {
+	width: 88px;
+	padding: 7px 30px 7px 5px;
+	margin-bottom: 5px;
+	float: right;
+}
+.login-input .Enter {
+	width: 52px;
+	height: 30px;
+	margin: 1px 9px 5px 0;
+	float: right;
+}
+.login-input .Enter img {
+	width: 50px;
+	height: 30px;
+	display: block;
+}
+.login-input label {
+	float: right;
+	width: 150px;
+	margin: 2px 12px 0 0;
+}
+/* nav */
+.bnav {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/nav0214.png) repeat-x center bottom;
+	height: 56px;
+}
+.bnav .bright {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/nav0114.png) no-repeat right top;
+	padding: 0 20px 0 0;
+	height: 56px;
+}
+.bnav .bright .bleft {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/nav0314.png) no-repeat left top;
+	padding: 0 0 0 20px;
+	height: 56px;
+}
+.bnav .bright .bleft ul { }
+.bnav .bright .bleft ul li { float: right; }
+.bnav .bright .bleft ul li a {
+	display: block;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	width: 110px;
+	height: 30px;
+	line-height: 25px;
+	text-align: center;
+	color: #FFF;
+	text-shadow: #303030 0px 1px 1px;
+	margin: 16px 0 0 10px;
+}
+.bnav .bright .bleft ul li a:hover,
+.bnav .bright .bleft ul li.select a {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/navhov14.png) no-repeat;
+	text-shadow: #101010 0px 1px 1px;
+}
+.content-right {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/bodyri14.png) repeat-y right center;
+	width: 20px;
+	vertical-align:top;
+}
+.content-center {
+	background: #FFF;
+	min-height: 600px;
+	vertical-align:top;
+}
+.content-left {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/bodyle13.png) repeat-y left center;
+	width: 20px;
+	vertical-align:top;
+}
+.bfooter {
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/footer19.png) repeat-x center bottom;
+	height: 81px;
+}
+.bfooter .bright {
+	float: right;
+	background: url(http://i57.servimg.com/u/f57/18/61/22/74/fpsai10.png) no-repeat;
+	width: 511px;
+	height: 81px;
+}
+.bfooter .bleft {
+	float: left;
+	background: url(http://i39.servimg.com/u/f39/14/86/81/44/footer12.png) no-repeat;
+	width: 149px;
+	height: 81px;
+}
+.bfooter .bleft img {
+	width: 149px;
+	height: 81px;
+	display: block;
+	border: 0px none;
+}
+.adv { margin: 15px auto; }
+.adv .tcat {
+	text-align: center;
+	height: 35px;
+	line-height: 32px;
+}
+.adv468 {
+	background: url(http://im41.gulfup.com/v98Cu.png) no-repeat;
+	width: 468px;
+	height: 60px;
+}
+.adv468 img {
+	width: 468px;
+	height: 60px;
+	display: block;
+}
+.adv150 {
+	background: url(http://im34.gulfup.com/XPVJe.png) no-repeat;
+	width: 150px;
+	height: 60px;
+}
+.adv150 img {
+	width: 150px;
+	height: 60px;
+	display: block;
+}
+.alert {
+	width: 800px;
+	background: #FFF;
+	border: 1px #ededed solid;
+	box-shadow: 0px 2px 2px #f3f3f3;
+	text-align: center;
+	padding: 10px 20px;
+	margin: 10px auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #555;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+/* Bdayh Cat Block */
+.BdCatBlock { margin: 10px 0px; }
+/* BdayhCatTop */
+.bdayh-cattopbg {
+	width: 100%;
+	height: 44px;
+	background: url('http://i57.servimg.com/u/f57/18/61/22/74/bdayhc39.png') repeat-x;
+}
+.bdayh-cattopright {
+	width: 112px;
+	height: 44px;
+	background: transparent url('http://i57.servimg.com/u/f57/18/61/22/74/bdayhc38.png') no-repeat scroll right top;
+	float: right;
+}
+.bdayh-cattopleft {
+	width: 401px;
+	height: 44px;
+	background: transparent url('http://i57.servimg.com/u/f57/18/61/22/74/ozign10.png') no-repeat scroll left top;
+	float: left;
+}
+/* BdayhCatBottom */
+.bdayh-catendbg {
+	width: 100%;
+	height: 23px;
+	font-size: 1px;
+	background: url('http://i57.servimg.com/u/f57/18/61/22/74/bdayhc37.png') repeat-x bottom;
+}
+.bdayh-catendright {
+	width: 20px;
+	height: 23px;
+	font-size: 1px;
+	background: transparent url('http://i57.servimg.com/u/f57/18/61/22/74/bdayhc36.png') no-repeat scroll right bottom;
+	float: right;
+}
+.bdayh-catendleft {
+	width: 21px;
+	height: 23px;
+	font-size: 1px;
+	background: transparent url('http://i57.servimg.com/u/f57/18/61/22/74/bdayhc35.png') no-repeat scroll left bottom;
+	float: left;
+}
+/* BdayhCatCenter */
+.bdayh-catright {
+	padding-right: 20px;
+	background: #ececec url('http://i57.servimg.com/u/f57/18/61/22/74/bdayhc34.png') repeat-y right;
+}
+.bdayh-catleft {
+	padding-left: 20px;
+	background: url('http://i57.servimg.com/u/f57/18/61/22/74/bdayhc33.png') repeat-y left;
+}
+.BdCatBlockBody {
+	padding: 2px;
+	overflow: hidden;
+	display: block;
+}
+/* Bdayh */
+/*************************************************************************************/
+/*									My vB Des										 */
+/*************************************************************************************/
+body { color: #76411d; }
+a:link,
+body_alink { color: #76411d; }
+a:visited,
+body_avisited { color: #76411d; }
+a:hover,
+a:active,
+body_ahover { color: #292f3b; }
+.page {
+	background: transparent;
+	color: #76411d;
+}
+.tborder {
+	background: #FFF;
+	box-shadow: #e5e5e5 0px 1px 2px;
+	border: none;
+}
+.tcat {
+	background: #a76520 url('http://i57.servimg.com/u/f57/18/61/22/74/btcat14.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #844100;
+	border-bottom: 1px #9f601d solid;
+}
+.tcat a:link,
+.tcat_alink { color: #FFF; }
+.tcat a:visited,
+.tcat_avisited { color: #FFF; }
+.tcat a:hover,
+.tcat a:active,
+.tcat_ahover { color: #FFF; }
+.thead {
+	background: #e5e5e5 url('http://i57.servimg.com/u/f57/18/61/22/74/bthead13.png') repeat-x center top;
+	color: #292f3b;
+	text-shadow: 0 1px 0 #ffffff;
+	border-bottom: 1px #dfdfdf solid;
+}
+.thead a:link,
+.thead_alink { color: #404040; }
+.thead a:visited,
+.thead_avisited { color: #404040; }
+.thead a:hover,
+.thead a:active,
+.thead_ahover { color: #76411d; }
+.tfoot {
+	background: #a76520 url('http://i57.servimg.com/u/f57/18/61/22/74/btcat14.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #844100;
+	border-bottom: 1px #9f601d solid;
+}
+.tfoot a:link,
+.tfoot_alink { color: #FFF; }
+.tfoot a:visited,
+.tfoot_avisited { color: #FFF; }
+.tfoot a:hover,
+.tfoot a:active,
+.tfoot_ahover { color: #FFF; }
+.alt1,
+.alt1Active {
+	background: #fcfcfc;
+	color: #454545;
+	border-top: 1px #FFF solid;
+	border-left: 1px #FFF solid;
+	border-right: 1px #eeeeee solid;
+	border-bottom: 1px #eeeeee solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.alt1 a:link,
+.alt1_alink,
+.alt1Active a:link,
+.alt1Active_alink { color: #76411d; }
+.alt1 a:visited,
+.alt1_avisited,
+.alt1Active a:visited,
+.alt1Active_avisited { color: #76411d; }
+.alt1 a:hover,
+.alt1 a:active,
+.alt1_ahover,
+.alt1Active a:hover,
+.alt1Active a:active,
+.alt1Active_ahover { color: #292f3b; }
+.alt2,
+.alt2Active {
+	background: #F8F8F8;
+	color: #454545;
+	border-top: 1px #FFF solid;
+	border-left: 1px #FFF solid;
+	border-right: 1px #eeeeee solid;
+	border-bottom: 1px #eeeeee solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.alt2 a:link,
+.alt2_alink,
+.alt2Active a:link,
+.alt2Active_alink { color: #76411d; }
+.alt2 a:visited,
+.alt2_avisited,
+.alt2Active a:visited,
+.alt2Active_avisited { color: #76411d; }
+.alt2 a:hover,
+.alt2 a:active,
+.alt2_ahover,
+.alt2Active a:hover,
+.alt2Active a:active,
+.alt2Active_ahover { color: #292f3b; }
+.inlinemod {
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg {
+	background-color: #F8F8F8;
+	color: #454545;
+}
+textarea,
+.bginput {
+	background: #f2f2f2 url('http://i57.servimg.com/u/f57/18/61/22/74/blight12.jpg') repeat-x center top;
+	color: #454545;
+	border : 1px #bbbbbb solid;
+	text-shadow: 0 1px 0 #FFF;
+}
+.button {
+	background: #a76520 url('http://i57.servimg.com/u/f57/18/61/22/74/btcat14.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #844100;
+}
+select {
+	background: #F8F8F8 url('http://i57.servimg.com/u/f57/18/61/22/74/blight12.jpg') repeat-x center top;
+	color: #454545;
+	border : 1px #eeeeee solid;
+}
+.time { color: #292f3b; }
+.highlight { color: #FF0000; }
+.fjsel {
+	background: #F8F8F8;
+	color: #454545;
+}
+.fjdpth0 {
+	background: #F8F8F8;
+	color: #454545;
+}
+.panel {
+	background: #F8F8F8;
+	color: #454545;
+}
+.panelsurround {
+	background: #F8F8F8;
+	color: #454545;
+}
+legend {
+	background: #a76520 url('http://i57.servimg.com/u/f57/18/61/22/74/btcat14.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #844100;
+}
+.vbmenu_control {
+	background: #a76520 url('http://i57.servimg.com/u/f57/18/61/22/74/btcat14.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #844100;
+}
+.vbmenu_control a:link,
+.vbmenu_control_alink { color: #FFF; }
+.vbmenu_control a:visited,
+.vbmenu_control_avisited { color: #FFF; }
+.vbmenu_control a:hover,
+.vbmenu_control a:active,
+.vbmenu_control_ahover { color: #FFF; }
+.vbmenu_popup {
+	background: #F8F8F8;
+	color: #454545;
+}
+.vbmenu_option {
+	background: #F8F8F8;
+	color: #454545;
+}
+.vbmenu_option a:link,
+.vbmenu_option_alink { color: #76411d; }
+.vbmenu_option a:visited,
+.vbmenu_option_avisited { color: #76411d; }
+.vbmenu_option a:hover,
+.vbmenu_option a:active,
+.vbmenu_option_ahover { color: #292f3b; }
+.vbmenu_hilite {
+	background: #FFF;
+	color: #454545;
+}
+.vbmenu_hilite a:link,
+.vbmenu_hilite_alink { color: #76411d; }
+.vbmenu_hilite a:visited,
+.vbmenu_hilite_avisited { color: #76411d; }
+.vbmenu_hilite a:hover,
+.vbmenu_hilite a:active,
+.vbmenu_hilite_ahover { color: #292f3b; }
+.panel .vBulletin_editor {
+	background: #FFF;
+	border: 1px #eeeeee solid;
+}
+.vBulletin_editor .controlbar fieldset iframe { border: none; }
+/*fb.com/Flying1free*/
+#fa_toolbar{
+	background: #ce328c url('http://i57.servimg.com/u/f57/18/61/22/74/btcat14.png') repeat-x center top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #841053;
+	border-bottom: 1px #b82b7c solid;
+}
+/*by yousafsheron*/
+ 
